@@ -1,0 +1,13 @@
+name = input("Enter your name:")
+age = input('Enter Your Age: ')
+num = input('Enter Phone Number: ')
+location = input("Enter your location:")
+print("Your Name:", name)
+#print("data type of name:", type(name))
+print('your Age :', age)
+print("Your Location:",location)
+print('your Phone:', num)
+print('data type of num:', type(num))
+#printing a personalized message
+message = f"Hello{name}, your age is {age},your phone is {num}, and your home is{location}."
+print(message)
