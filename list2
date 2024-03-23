@@ -1,0 +1,18 @@
+numbers = [1,2,3,4]
+prime_numbers = [11, 13, 15]
+even_numbers = [14,16,18]
+my_list = []
+my_list =[6, "Hello", 3.8]
+languages = ["python", "Dart","C++"]
+numbers.append(5)
+prime_numbers.extend(even_numbers)
+print("List after append:",prime_numbers)
+languages[2]='swift'
+#del languages[0]
+languages.remove('python')
+print(languages)
+#print("After Append:",numbers)
+#print(numbers)
+#print(my_list)
+#print(my_list[1:3])
+#print(my_list[:])
